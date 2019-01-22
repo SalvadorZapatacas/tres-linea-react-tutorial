@@ -138,7 +138,7 @@ import './index.css';
       
       if (WINNER) {
         status = WINNER;
-        //this.audio.play();
+        this.audio.play();
       } else {
         status = 'Turno del jugador : ' + (this.state.xIsNext ? 'X' : 'O');
       }
