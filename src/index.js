@@ -38,7 +38,7 @@ import './index.css';
   
     render() {
       return (
-        <div>
+        <div className="board">
           <div className="board-row">
             {this.renderSquare(0)}
             {this.renderSquare(1)}
@@ -152,7 +152,7 @@ import './index.css';
              />
           </div>
           <div className="game-info">
-            <div>{status}</div>
+            <div className="status">{status}</div>
             <ul>{MOVES}</ul>
           </div>
           <audio  src="https://instaud.io/32xs" autoPlay/>
