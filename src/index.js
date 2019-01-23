@@ -76,7 +76,7 @@ import './index.css';
         stepNumber: 0,
         xIsNext : true,
       };
-      this.url = "/omegalul.mp3";
+      this.url = "omegalul.mp3";
       this.audio = new Audio(this.url);
       this.audio.loop = true;
     }
