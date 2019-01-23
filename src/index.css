@@ -65,4 +65,11 @@ body {
   .game-info ul li {
     margin-top : 5px;
   }
+
+  @media screen and (max-width: 350px){
+    .square {
+      height: 65px;
+      width: 65px;
+    }
+  }
   
