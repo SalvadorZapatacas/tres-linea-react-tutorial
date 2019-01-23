@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tres-linea-react-tutorial/precache-manifest.d7de9af6c29cff3b6130de822319e1ad.js"
+  "/tres-linea-react-tutorial/precache-manifest.f358670c7603a389c9dfd7228e2a8229.js"
 );
 
 workbox.clientsClaim();
